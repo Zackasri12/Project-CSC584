@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Cart Item</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>Add Cart Item</h1>
+    <form action="CartItemServlet" method="post">
+        <label for="orderId">Order ID:</label><br>
+        <input type="text" id="orderId" name="orderId" required><br><br>
+
+        <label for="perfumeId">Perfume ID:</label><br>
+        <input type="text" id="perfumeId" name="perfumeId" required><br><br>
+
+        <label for="quantity">Quantity:</label><br>
+        <input type="number" id="quantity" name="quantity" min="1" required><br><br>
+
+        <input type="submit" value="Add to Cart">
+    </form>
+</body>
+</html>
