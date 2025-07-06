@@ -25,8 +25,9 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    
     <title>Order History</title>
-    <a class="back-btn" href="customer_dashboard.jsp"> Home</a>
+    
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -43,7 +44,7 @@
             background-color: #fff;
             border: 1px solid #ddd;
         }
-                    .back-btn {
+                        .back-btn {
         position: absolute;
         top: 20px;
         left: 20px;
@@ -57,11 +58,7 @@
         text-decoration: none;
         transition: background 0.3s;
     }
-
-    .back-btn:hover {
-        background-color: #e0e0e0;
-    }
-
+        
         th, td {
             padding: 14px;
             border: 1px solid #ccc;
@@ -77,6 +74,7 @@
     </style>
 </head>
 <body>
+    <a class="back-btn" href="customer_dashboard.jsp"> Home</a>
 
 <h2>Your Order History</h2>
 

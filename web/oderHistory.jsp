@@ -24,7 +24,7 @@
     <html>
     <head>
         <title>Order History</title>
-        <a class="back-btn" href="customer_dashboard.jsp"> Home</a>
+        
         <style>
             body {
                 font-family: Arial, sans-serif;
@@ -91,7 +91,7 @@
         </style>
     </head>
     <body>
-
+<a class="back-btn" href="customer_dashboard.jsp"> Home</a>
     <h2>Your Order History</h2>
 
     <% if (orders.isEmpty()) { %>
