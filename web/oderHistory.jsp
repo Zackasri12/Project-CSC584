@@ -24,6 +24,7 @@
     <html>
     <head>
         <title>Order History</title>
+        <a class="back-btn" href="customer_dashboard.jsp"> Home</a>
         <style>
             body {
                 font-family: Arial, sans-serif;
@@ -35,6 +36,25 @@
                 text-align: center;
                 color: #333;
             }
+                .back-btn {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        background-color: #fff;
+        color: #1e1e2f;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+        transition: background 0.3s;
+    }
+
+    .back-btn:hover {
+        background-color: #e0e0e0;
+    }
+
 
             table {
                 width: 80%;
